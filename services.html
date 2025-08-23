@@ -1,66 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lydia Waweru - Services</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-</head>
-<body class="bg-gray-50 text-gray-800">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Lydia Waweru</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      line-height: 1.6;
+    }
 
-  <!-- Navigation -->
-  <header class="bg-indigo-700 text-white p-4">
-    <nav class="container mx-auto flex justify-between items-center">
-      <h1 class="text-2xl font-bold">Lydia Waweru</h1>
-      <ul class="flex space-x-6">
-        <li><a href="index.html" class="hover:text-yellow-300">Home</a></li>
-        <li><a href="services.html" class="hover:text-yellow-300">Services</a></li>
-        <li><a href="philanthropy.html" class="hover:text-yellow-300">Philanthropy</a></li>
-        <li><a href="contact.html" class="hover:text-yellow-300">Contact</a></li>
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contact-container {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .contact-container h2 {
+      color: #2c3e50;
+      margin-bottom: 15px;
+    }
+
+    .contact-container p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .social-buttons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+    }
+
+    .social-buttons a {
+      display: inline-block;
+      padding: 10px 18px;
+      border-radius: 30px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .facebook { background: #3b5998; }
+    .facebook:hover { background: #2d4373; }
+
+    .whatsapp { background: #25d366; }
+    .whatsapp:hover { background: #1da851; }
+
+    .tiktok { background: #000; }
+    .tiktok:hover { background: #333; }
+
+    .instagram { background: #e1306c; }
+    .instagram:hover { background: #c13584; }
+
+    footer {
+      background: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Contact Lydia Waweru</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="philanthropy.html">Philanthropy</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Services Section -->
-  <section class="container mx-auto py-10">
-    <h2 class="text-3xl font-bold text-center mb-8">Our Services</h2>
+  <section class="contact-container">
+    <h2>Get in Touch</h2>
+    <p><strong>Phone:</strong> +254712972035</p>
+    <p><strong>Email:</strong> <a href="mailto:lydianjuguna2015@gmail.com">lydianjuguna2015@gmail.com</a></p>
 
-    <!-- Grid -->
-    <div class="grid md:grid-cols-2 gap-8">
-      
-      <!-- Service 1 -->
-      <div class="bg-white shadow rounded-lg p-4">
-        <img src="images/services-children.jpg" alt="Visiting Children Homes & Street Families" class="w-full h-48 object-cover rounded-lg mb-4">
-        <h3 class="text-xl font-semibold mb-2">Visiting Children Homes & Street Families</h3>
-        <p>Providing love, food, clothes, and encouragement to children in homes and families living in the streets.</p>
-      </div>
-
-      <!-- Service 2 -->
-      <div class="bg-white shadow rounded-lg p-4">
-        <img src="images/services-women-youth.jpg" alt="Women & Youth Empowerment" class="w-full h-48 object-cover rounded-lg mb-4">
-        <h3 class="text-xl font-semibold mb-2">Women & Youth Empowerment</h3>
-        <p>Empowering women and youth with skills, mentorship, and opportunities for self-sufficiency.</p>
-      </div>
-
-      <!-- Service 3 -->
-      <div class="bg-white shadow rounded-lg p-4">
-        <img src="images/services-prison.jpg" alt="Prison Visits" class="w-full h-48 object-cover rounded-lg mb-4">
-        <h3 class="text-xl font-semibold mb-2">Prison Visits</h3>
-        <p>Offering hope, counseling, and rehabilitation support to incarcerated individuals.</p>
-      </div>
-
-      <!-- Service 4 -->
-      <div class="bg-white shadow rounded-lg p-4">
-        <img src="images/services-community.jpg" alt="Community Based Empowerment" class="w-full h-48 object-cover rounded-lg mb-4">
-        <h3 class="text-xl font-semibold mb-2">Community Based Empowerment</h3>
-        <p>Working with local communities to support sustainable projects and initiatives that uplift lives.</p>
-      </div>
+    <div class="social-buttons">
+      <a href="https://www.facebook.com/share/1PqnCY7czH/" class="facebook" target="_blank">Facebook</a>
+      <a href="https://wa.me/254712972035" class="whatsapp" target="_blank">WhatsApp</a>
+      <a href="https://www.tiktok.com/@lydiah.waweru?_t=ZM-8z7tJl6udE5&_r=1" class="tiktok" target="_blank">TikTok</a>
+      <a href="https://www.instagram.com/lnjuguna?igsh=M3lmNmEzcXZwNmhw" class="instagram" target="_blank">Instagram</a>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-indigo-700 text-white text-center p-4 mt-10">
-    <p>&copy; 2025 Lydia Waweru - Blessed Nation Ambassadors</p>
+  <footer>
+    <p>&copy; 2025 Lydia Waweru | Blessed Nation Ambassadors</p>
   </footer>
 </body>
 </html>
